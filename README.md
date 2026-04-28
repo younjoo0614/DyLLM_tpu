@@ -13,7 +13,7 @@ bash setup_env.sh
 ## How to run
 
 ```
-python run.py
+PJRT_DEVICE=TPU DYLLM_ALLOW_XLA_MULTIPROC=1 DYLLM_TP_SIZE=4 python3 run.py
 ```
 
 ## Algorithm
